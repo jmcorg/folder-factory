@@ -30,4 +30,4 @@ org_policies:
 iam:
   roles/resourcemanager.projectCreator:
     - serviceAccount:sa-jmcorg@jmc-central-pj.iam.gserviceaccount.com
-    #serviceAccount:service-account@project-xyz.iam.gserviceaccount.com
+    #- serviceAccount:service-account@project-xyz.iam.gserviceaccount.com

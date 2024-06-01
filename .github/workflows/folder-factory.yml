@@ -55,8 +55,6 @@ jobs:
               gcloud config list
               terraform init
               terraform plan -out=test.tfplan
-              
+              terraform apply --auto-approve test.tfplan
               #terraform show -json ./test.tfplan > ./tfplan.json
-              ls
-
               echo "done"
