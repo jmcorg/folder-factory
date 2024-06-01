@@ -29,4 +29,4 @@ org_policies:
       values:
 iam:
   roles/resourcemanager.projectCreator:
-    - serviceAccount:sa-jmcorg@jmc-central-pj.iam.gserviceaccount.com
+    - serviceAccount:sa-lzguardrails@jmc-central-pj.iam.gserviceaccount.com
