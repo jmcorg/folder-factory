@@ -40,4 +40,5 @@ jobs:
               pwd && ls 
               terraform init -backend-config="bucket=jmcorg-tfstate_lz"
               terraform destroy -auto-approve
-              terraform state rm -force-unlock $(terraform state list)
+              terraform state list
+              #terraform state rm -lock=false 
