@@ -16,8 +16,11 @@
 
 terraform {
   backend "gcs" {
+      bucket  = "jmcorg-tfstate_lz"
+      prefix  = "folder-factory"
   }
 }
+
 
 provider "google" {
 
