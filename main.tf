@@ -29,4 +29,5 @@ module "folder" {
   policy_boolean  = try(each.value.org_policies.policy_boolean, {})
   policy_list     = try(each.value.org_policies.policy_list, {})
   iam             = try(each.value.iam, {})
+  
 }
